@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return '<h1><p style="color:' + os.environ.get('APP_COLOR', 'black') + '">TESTE PRÁTICA-2 ANTES DE CONFIGURAR O WEBHOOK</p></h1>'
+    return '<h1><p style="color:' + os.environ.get('APP_COLOR', 'black') + '">TESTE PRÁTICA-2 WEBHOOK FUNCIONANDO PERFEITAMENTE!!</p></h1>'
 
 @app.route('/api')
 def hello():
